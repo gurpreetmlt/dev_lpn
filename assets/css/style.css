@@ -137,6 +137,9 @@ button:focus {
 	display:block;
 	height:20px;
 }
+.divider-ul {
+    list-style: none;
+}
 .bg_blue_dark {
 	background-color :#0d2476;
 }
