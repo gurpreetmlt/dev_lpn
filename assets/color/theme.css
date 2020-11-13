@@ -13,7 +13,7 @@ button,
 .newsletter_form .outline_input,
 .progress-bar {
 	background: -webkit-linear-gradient(left, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
-	background: linear-gradient(to right, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
+	background: #e82c59;
 }
 
 .btn-default::before,
@@ -59,7 +59,7 @@ button,
 .v_light .faq_content .card, 
 .v_light .faq_content .card-header a,
 .v_light .footer_social li a:hover  {
-	background-color: #26b6d4;
+	background-color: #e82c59;
 }
 .roadmap .owl-nav .disabled i {
 	background-color: #1c88bd;
@@ -127,7 +127,7 @@ header a:hover,
 .team_content h5 a,
 .team_social li a:hover,
 .app_btn li a:hover span {
-	color: #26b6d4;
+	color: #e82c59;
 }
 
 .tags li a:hover,
@@ -135,5 +135,5 @@ header a:hover,
 .v_dark .tags li a:hover,
 .v_dark_light .tags li a:hover,
 .doc_box {
-	border-color: #26b6d4;
+	border-color: #e82c59;
 }

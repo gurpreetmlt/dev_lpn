@@ -1,34 +1,7 @@
-/*=========================================================
-Author       : Bestwebcreator.
-Template Name: Cryptoking - Bitcoin & ICO Cryptocurrency Landing Page HTML Template
-Version      : 1.5
-==============================================================*/
-
-/*=============================================================
-    CSS INDEX
-    =============================
-    01. GENERAL STYLE (body, link color, section-title, overlay, section-padding etc)
-    02. HEADER DESIGN
-	03. BANNER SECTION
-	04. HOW IT WORKS SECTION
-	05. ABOUT SECTION
-	06. TOKEN SECTION
-	07. TIMELINE SECTION
-	08. TEAM SECTION
-	09. FAQ SECTION
-	10. CLIENT SECTION
-	11. CONTACT SECTION
-	12. FOOTER SECTION
-	13. BLOG PAGE
-	14. LOGIN PAGE
-	15. MOBILE APP SECTION
-	16. WHITEPAPER SECTION
-*=============================================================*/
-  
 /*===================================*
   01. GENERAL STYLE
  *===================================*/
-@import  url("../../../../../stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("../../../../../stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 body {
 	background: #ffffff none repeat scroll 0 0;
@@ -61,7 +34,7 @@ a {
 	transition: all .5s ease;
 }
 a:hover {
-	color: #26b6d4;
+	color: #e82c59;
 	text-decoration: none;
 	transition: all .5s ease;
 }
@@ -124,8 +97,8 @@ input {
 	width: 100%;
 }
 button {
-	background: -webkit-linear-gradient(left, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
-	background: linear-gradient(to right, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
+	background: #e82c59;
+	background: #e82c59;
 	border: 0;
 	border-radius: 40px;
 	color: #ffffff;
@@ -199,25 +172,25 @@ button:focus {
 
 .v_light .title_light span, 
 .v_light .title_dark span {
-	color: #26b6d4;
+	color: #e82c59;
 }
 .v_light .form-control::-webkit-input-placeholder {
-	color: #26b6d4;
+	color: #e82c59;
 }
 .v_light .form-control:-moz-placeholder {
-	color: #26b6d4;
+	color: #e82c59;
 }
 .v_light .form-control::-moz-placeholder {
-	color: #26b6d4;
+	color: #e82c59;
 }
 .v_light .form-control:-ms-input-placeholder {
-	color: #26b6d4;
+	color: #e82c59;
 }
 .v_dark .title_light span, 
 .v_dark .title_dark span,
 .v_dark_light .title_light span, 
 .v_dark_light .title_dark span {
-	color: #26b6d4;
+	color: #e82c59;
 }
 .v_dark_light .title_dark h2 {
 	color: #1a1c34;
@@ -262,7 +235,7 @@ button:focus {
 #g-spinner.loading>.circle.c1 {
 	left:60px;
 	top:5px;
-	background:#26B6D4;
+	background:#e82c59;
 	-webkit-animation:c1Center 4s cubic-bezier(.645, .045, .355, 1) infinite;
 	animation:c1Center 4s cubic-bezier(.645, .045, .355, 1) infinite
 }
@@ -310,13 +283,13 @@ to {
 @-webkit-keyframes c1Center {
 0% {
 	top:5px;
-	background:#26B6D4
+	background:#e82c59
 }
 24% {
-	background:#26B6D4
+	background:#e82c59
 }
 24% {
-	background:#26B6D4
+	background:#e82c59
 }
 25% {
 	background:#fbbd06;
@@ -334,24 +307,24 @@ to {
 	background:#fbbd06
 }
 75% {
-	background:#26B6D4;
+	background:#e82c59;
 	top:60px
 }
 100% {
-	background:#26B6D4;
+	background:#e82c59;
 	top:5px
 }
 }
 @keyframes c1Center {
 0% {
 	top:5px;
-	background:#26B6D4
+	background:#e82c59
 }
 24% {
-	background:#26B6D4
+	background:#e82c59
 }
 24% {
-	background:#26B6D4
+	background:#e82c59
 }
 25% {
 	background:#fbbd06;
@@ -369,11 +342,11 @@ to {
 	background:#fbbd06
 }
 75% {
-	background:#26B6D4;
+	background:#e82c59;
 	top:60px
 }
 100% {
-	background:#26B6D4;
+	background:#e82c59;
 	top:5px
 }
 }
@@ -450,19 +423,19 @@ to {
 	background:#fbbd06
 }
 25% {
-	background:#26B6D4;
+	background:#e82c59;
 	bottom:60px
 }
 50% {
-	background:#26B6D4;
+	background:#e82c59;
 	bottom:5px
 }
 55% {
-	background:#26B6D4;
+	background:#e82c59;
 	bottom:5px
 }
 74% {
-	background:#26B6D4
+	background:#e82c59
 }
 75% {
 	background:#fbbd06;
@@ -482,19 +455,19 @@ to {
 	background:#fbbd06
 }
 25% {
-	background:#26B6D4;
+	background:#e82c59;
 	bottom:60px
 }
 50% {
-	background:#26B6D4;
+	background:#e82c59;
 	bottom:5px
 }
 55% {
-	background:#26B6D4;
+	background:#e82c59;
 	bottom:5px
 }
 74% {
-	background:#26B6D4
+	background:#e82c59
 }
 75% {
 	background:#fbbd06;
@@ -678,8 +651,8 @@ to {
     opacity: 1;
 }
 .default {
-	background: -webkit-linear-gradient(left, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
-	background: linear-gradient(to right, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
+	background: #e82c59;
+	background: #e82c59;
 }
 .green {
 	background: -webkit-linear-gradient(left, rgba(14,156,255,1) 0%,rgba(64,248,166,1) 99%);
@@ -761,8 +734,8 @@ to {
 	outline:none;
 }
 .btn-default {
-	background: -webkit-linear-gradient(left, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
-	background: linear-gradient(to right, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
+	background: #e82c59;
+	background: #e82c59;
 	border: 0;
 	color: #fff;
 	outline:none;
@@ -783,15 +756,15 @@ to {
 .btn-default:focus,
 .btn.active:not(:disabled):not(.disabled), 
 .btn:active:not(:disabled):not(.disabled) {
-	background: -webkit-linear-gradient(left, rgba(37,184,213,1) 0%,rgba(117,88,165,1) 99%);
-    background: linear-gradient(to right, rgba(37,184,213,1) 0%,rgba(117,88,165,1) 99%);
+	background: #e82c59;
+    background: #e82c59;
 	box-shadow:none;
 	color: #fff;
 	outline:none;
 }
 .btn-default::before {
-	background: -webkit-linear-gradient(left, rgba(37,184,213,1) 0%,rgba(117,88,165,1) 99%);
-	background: linear-gradient(to right, rgba(37,184,213,1) 0%,rgba(117,88,165,1) 99%);
+	background: #e82c59;
+	background: #e82c59;
 	border-radius: 40px;
 	content: "";
 	height: 100%;
@@ -807,8 +780,8 @@ to {
 	opacity: 1;
 }
 .btn-border {
-	background: -webkit-linear-gradient(left, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
-	background: linear-gradient(to right, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
+	background: #e82c59;
+	background: #e82c59;
 	border: 0;
 	color: #fff;
 	outline:none;
@@ -1043,7 +1016,7 @@ header a {
 	color: #ffffff;
 }
 header a:hover,.navbar-nav li a.active {
-	color: #26b6d4;
+	color: #e82c59;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
 	padding: 0 10px;
@@ -1073,7 +1046,7 @@ header a:hover,.navbar-nav li a.active {
 }
 .v_light header a:hover, 
 .v_light .navbar-nav li a.active {
-	color: #26b6d4;
+	color: #e82c59;
 }
 .v_dark .nav-fixed,
 .v_dark header.active,
@@ -1107,7 +1080,7 @@ header a:hover,.navbar-nav li a.active {
 	margin-bottom:20px;
 }
 .banner_text h1 span {
-	color: #26b6d4;
+	color: #e82c59;
 }
 .banner_text h3 {
 	color: #ffffff;
@@ -1175,8 +1148,8 @@ header a:hover,.navbar-nav li a.active {
 	margin-bottom:15px;
 }
 .progress-bar {
-	background: -webkit-linear-gradient(left, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
-	background: linear-gradient(to right, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
+	background: #e82c59;
+	background: #e82c59;
     line-height: 30px;
     font-weight: bold;
     border: 5px solid #fff;
@@ -1334,7 +1307,7 @@ header a:hover,.navbar-nav li a.active {
 	margin: 0;
 }
 .box_inner i {
-	color: #26b6d4;
+	color: #e82c59;
 	font-size: 50px;
 }
 
@@ -1586,7 +1559,7 @@ header a:hover,.navbar-nav li a.active {
 }
 
 .v_light .pr_box h6 {
-	color: #26b6d4;
+	color: #e82c59;
 }
 .v_light .tk_countdown {
 	background-color: #f6f8ff;
@@ -1620,7 +1593,7 @@ header a:hover,.navbar-nav li a.active {
 }
 .v_dark .pr_box h6,
 .v_dark_light .pr_box h6 {
-	color: #26b6d4;
+	color: #e82c59;
 }
 .v_dark .pr_box p,
 .v_dark .chart_list li {
@@ -1651,7 +1624,7 @@ header a:hover,.navbar-nav li a.active {
 	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
 }
 .roadmap::before {
-    background-color: #26b6d4;
+    background-color: #e82c59;
 	content: "";
 	height: 3px;
     left: 0;
@@ -1672,11 +1645,11 @@ header a:hover,.navbar-nav li a.active {
 	width: 27px;
 }
 .roadmap_icon.icon_gradient_box::before {
-	background: -webkit-linear-gradient(left, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
-	background: linear-gradient(to right, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
+	background: #e82c59;
+	background: #e82c59;
 }
 .roadmap_icon::before {
-	background-color: #26b6d4;
+	background-color: #e82c59;
 	color: #ffffff;
 	content: "c";
 	display: block;
@@ -1693,7 +1666,7 @@ header a:hover,.navbar-nav li a.active {
 	font-weight: normal;
 }
 .roadmap_inner::before {
-	background-color: #26b6d4;
+	background-color: #e82c59;
 	content: "";
 	height: 94px;
 	left: 0;
@@ -1704,7 +1677,7 @@ header a:hover,.navbar-nav li a.active {
 	width: 3px;
 }
 .roadmap_inner::after {
-	background: #26b6d4 none repeat scroll 0 0;
+	background: #e82c59 none repeat scroll 0 0;
 	border: 2px solid #ffffff;
 	border-radius: 100%;
 	content: "";
@@ -1718,7 +1691,7 @@ header a:hover,.navbar-nav li a.active {
 	z-index: -1;
 }
 .roadmap_inner {
-	background-color: #26b6d4;
+	background-color: #e82c59;
 	border-radius: 10px;
 	padding:20px;
 }
@@ -1743,7 +1716,7 @@ header a:hover,.navbar-nav li a.active {
 	right: -33px;
 }
 .roadmap .owl-nav i {
-	background-color: #26b6d4;
+	background-color: #e82c59;
 	border-radius: 100%;
 	color: #ffffff;
 	display: block;
@@ -1867,8 +1840,8 @@ header a:hover,.navbar-nav li a.active {
 	padding: 20px;
 }
 .gradient_box {
-	background: -webkit-linear-gradient(left, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
-	background: linear-gradient(to right, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
+	background: #e82c59;
+	background: #e82c59;
 }
 .team_info h4 a {
 	color: #ffffff;
@@ -1931,8 +1904,8 @@ header a:hover,.navbar-nav li a.active {
 	z-index:1;
 }
 .social_team a:before {
-	background: -webkit-linear-gradient(left, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
-  	background: linear-gradient(to right, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
+	background: #e82c59;
+  	background: #e82c59;
 	border-radius: 40px;
 	content: "";
 	height: 100%;
@@ -2227,7 +2200,7 @@ header a:hover,.navbar-nav li a.active {
 	width: 40px;
 }
 .contact_detail span {
-	color: #26b6d4;
+	color: #e82c59;
 	display: block;
 	font-size: 14px;
 	font-weight: 600;
@@ -2304,14 +2277,14 @@ header a:hover,.navbar-nav li a.active {
 
 .v_light .form_field input, 
 .v_light .form_field textarea {
-	border-color: #26b6d4;
-	color: #26b6d4;
+	border-color: #e82c59;
+	color: #e82c59;
 }
 .v_light .contact_info li i {
-	color: #26b6d4;
+	color: #e82c59;
 }
 .v_light .contact_detail {
-	border-color: #26b6d4;
+	border-color: #e82c59;
 }
 .v_light .contact_detail p {
 	color: #7a7a7a;
@@ -2382,8 +2355,8 @@ header a:hover,.navbar-nav li a.active {
 	color: #ffffff;
 }
 .newsletter_form .outline_input {
-	background: -webkit-linear-gradient(left, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
-	background: linear-gradient(to right, rgba(117,88,165,1) 0%,rgba(37,184,213,1) 99%);
+	background: #e82c59;
+	background: #e82c59;
 	border-radius: 40px;
 	bottom: 0;
 	content: "";
@@ -2445,7 +2418,7 @@ header a:hover,.navbar-nav li a.active {
 	width: 40px;
 }
 .footer_social li a:hover {
-	background-color: #26b6d4;
+	background-color: #e82c59;
 	border-color: transparent;
 }
 .bottom_footer {
@@ -2471,7 +2444,7 @@ header a:hover,.navbar-nav li a.active {
 }
 .footer_menu li a:hover,
 .footer_link a:hover {
-	color: #26b6d4;
+	color: #e82c59;
 }
 .footer_link li {
 	float: left;
@@ -2521,7 +2494,7 @@ header a:hover,.navbar-nav li a.active {
 	color: #20126f;
 }
 .v_light .footer_social li a:hover {
-	background-color: #26b6d4;
+	background-color: #e82c59;
 	border-color: transparent;
 	color: #ffffff;
 }
@@ -2529,7 +2502,7 @@ header a:hover,.navbar-nav li a.active {
 	color: #20126f;
 }
 .v_light .footer_link a:hover {
-	color: #26b6d4;
+	color: #e82c59;
 }
 .v_dark .newsletter_form input,
 .v_dark_light .newsletter_form input {
@@ -2671,7 +2644,7 @@ header a:hover,.navbar-nav li a.active {
 }
 .widget_category li a:hover,
 .widget_archive li a:hover {
-	color:#26b6d4;
+	color:#e82c59;
 }
 .widget_category li a::before,
 .widget_archive li a:before {
@@ -2718,8 +2691,8 @@ header a:hover,.navbar-nav li a.active {
 	padding: 5px 15px;
 }
 .tags li a:hover {
-	border-color:#26b6d4;
-	color:#26b6d4;
+	border-color:#e82c59;
+	color:#e82c59;
 }
 .widget_archive li a span {
 	float: right;
@@ -2895,13 +2868,13 @@ header a:hover,.navbar-nav li a.active {
 .v_dark_light .widget-post-content h6 a:hover,
 .v_dark_light .meta_data a:hover,
 .v_dark_light .comment-reply:hover {
-	color: #26b6d4;
+	color: #e82c59;
 }
 .v_blue .tags li a {
 	border-color: #fff;
 }
 .v_blue .tags li a:hover {
-	border-color: #26b6d4;
+	border-color: #e82c59;
 }
 .v_blue .widget_title::before {
 	background-color: #ffffff;
@@ -2922,7 +2895,7 @@ header a:hover,.navbar-nav li a.active {
 	border-color: #fff;
 }
 .v_dark .tags li a:hover {
-	border-color: #26b6d4;
+	border-color: #e82c59;
 }
 .v_dark .widget_title:before {
 	background-color: #ffffff;
@@ -3066,7 +3039,7 @@ header a:hover,.navbar-nav li a.active {
 .v_dark .forgot_pass:hover,
 .v_dark .authorize_form .form-group span a:hover,
 .v_dark .authorize_form .form-group .checkbox_field label a:hover {
-	color: #26b6d4;
+	color: #e82c59;
 }
 
 .v_dark .authorize_box {
@@ -3078,7 +3051,7 @@ header a:hover,.navbar-nav li a.active {
 }
 .v_dark_light .forgot_pass:hover,
 .v_dark_light .authorize_form .form-group span a:hover {
-	color: #26b6d4;
+	color: #e82c59;
 }
 /*===================================*
 14. LOGIN PAGE

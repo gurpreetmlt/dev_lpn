@@ -93,7 +93,7 @@ LANDING PAGE JS
 						}
 					},
 					"color": {
-						"value": "#26B6D4"
+						"value": "#e82c59"
 					},
 					"shape": {
 						"type": "polygon",
@@ -133,7 +133,7 @@ LANDING PAGE JS
 					"line_linked": {
 						"enable": true,
 						"distance": 150,
-						"color": "#26B6D4",
+						"color": "#e82c59",
 						"opacity": 0.1,
 						"width": 1
 					},
