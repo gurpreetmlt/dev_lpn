@@ -49,6 +49,7 @@ ul,
 li {
 	margin: 0;
 	padding: 0;
+	list-style: none;
 }
 .form-control::-webkit-input-placeholder {
 	color: #7ab9ff;
@@ -1618,6 +1619,226 @@ header a:hover,.navbar-nav li a.active {
 06. END TOKEN SECTION
 *===================================*/
 
+.pro .lpnspeed{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background: none;
+    margin: 0 auto;
+    box-shadow: none;
+    position: relative;
+    overflow: visible;
+}
+.pro .lpnspeed:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.pro .lpnspeed > span{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.pro .lpnspeed .lpnspeed-left{ left: 0; }
+.pro .lpnspeed .lpnspeed-bar{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 5px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+.pro .lpnspeed .lpnspeed-left .lpnspeed-bar{
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+.pro .lpnspeed .lpnspeed-right{ right: 0; }
+.pro .lpnspeed .lpnspeed-right .lpnspeed-bar{
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards;
+}
+.pro .lpnspeed .inner-circle,
+
+.pro .lpnspeed .lpnspeed-value{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 5px solid #8e8e8e;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 80px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+.pro .lpnspeed .inner-circle:after{
+    content: "";
+    width: 5px;
+    height: 60px;
+    background: #8e8e8e;
+    margin: 0 auto;
+    position: absolute;
+    top: -60px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    transition: all 10s linear 0s;
+}
+.pro .lpnspeed.red .lpnspeed-bar{ border-color: #e82c59; }
+.pro .lpnspeed.red .lpnspeed-value{ color: #e82c59; }
+.pro .lpnspeed.red .lpnspeed-left .lpnspeed-bar{ animation: loading-2 1.5s linear forwards 1.8s; }
+.pro .lpnspeed.red .inner-circle{ animation: loading-6 3.8s ease forwards; }
+.pro .lpnspeed.yellow .lpnspeed-bar{ border-color: #fdba04; }
+.pro .lpnspeed.yellow .lpnspeed-value{ color: #fdba04; }
+.pro .lpnspeed.yellow .lpnspeed-left .lpnspeed-bar{ animation: loading-3 1s linear forwards 1.8s; }
+.pro .lpnspeed.yellow .inner-circle{ animation: loading-7 3.8s ease forwards; }
+.pro .lpnspeed.green .lpnspeed-bar{ border-color: #1abc9c; }
+.pro .lpnspeed.green .lpnspeed-value{ color: #1abc9c; }
+.pro .lpnspeed.green .lpnspeed-left .lpnspeed-bar{ animation: loading-4 0.4s linear forwards 1.8s; }
+.pro .lpnspeed.green .inner-circle{ animation: loading-8 3.8s ease forwards; }
+.pro .lpnspeed.blue .lpnspeed-bar{ border-color: #049dff; }
+.pro .lpnspeed.blue .lpnspeed-value{ color: #049dff; }
+.pro .lpnspeed.blue .lpnspeed-left .lpnspeed-bar{ animation: loading-5 1.2s linear forwards 1.8s; }
+.pro .lpnspeed.blue .inner-circle{ animation: loading-9 3.8s ease forwards; }
+@keyframes loading-1{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+@keyframes loading-2{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(165deg);
+        transform: rotate(165deg);
+    }
+}
+@keyframes loading-3{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+}
+@keyframes loading-4{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(36deg);
+        transform: rotate(36deg);
+    }
+}
+@keyframes loading-5{
+     0%{
+         -webkit-transform: rotate(0deg);
+         transform: rotate(0deg);
+     }
+     100%{
+         -webkit-transform: rotate(126deg);
+         transform: rotate(126deg);
+     }
+}
+@keyframes loading-6{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100%{
+        -webkit-transform: rotate(345deg);
+        transform: rotate(345deg);
+    }
+}
+@keyframes loading-7{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100%{
+        -webkit-transform: rotate(270deg);
+        transform: rotate(270deg);
+    }
+}
+@keyframes loading-8{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100%{
+        -webkit-transform: rotate(216deg);
+        transform: rotate(216deg);
+    }
+}
+@keyframes loading-9{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100%{
+        -webkit-transform: rotate(306deg);
+        transform: rotate(306deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
 /*===================================*
 07. TIMELINE SECTION
 *===================================*/
@@ -1704,6 +1925,7 @@ header a:hover,.navbar-nav li a.active {
 	background-color: #e82c59;
 	border-radius: 10px;
 	padding:20px;
+	min-height: 145px;
 }
 .roadmap_box h6 {
 	color: #ffffff;
@@ -2049,10 +2271,11 @@ header a:hover,.navbar-nav li a.active {
 	padding: 15px 40px 15px 15px;
 }
 .faq_content .card-body {
-	padding: 10px 15px;
+	padding: 10px 15px 10px 40px;
 	position: relative;
 	z-index: 1;
 }
+.faq_content .card-body p{margin-bottom: 10px;}
 .faq_content .card {
   background-color: #25b8d5;
 }
@@ -2085,9 +2308,11 @@ header a:hover,.navbar-nav li a.active {
 	margin-right: 5px;
 }
 .card-body::before {
-	content: "A.";
-	font-weight: 600;
-	margin-right:5px;
+    content: "A.";
+    font-weight: 600;
+    margin-right: 5px;
+    left: 17px;
+    position: absolute;
 }
 .faq_box .card {
 	background-color: rgba(0, 0, 0, 0);
