@@ -62,10 +62,10 @@ button,
 	background-color: #e82c59;
 }
 .roadmap .owl-nav .disabled i {
-	background-color: #1c88bd;
+	background-color: #e82c59;
 }
 .btn span {
-	color: #7459a6;
+	color: #e82c59;
 }
 .btn:hover span,
 header a:hover, 
