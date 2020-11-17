@@ -9,11 +9,49 @@
 }
 
 
-.why-use-box .box_inner
-{
+.why-use-box .box_inner {
     box-shadow: none;
 }
 
 .the-legacy {
     display: flex;
+}
+
+.section_title {
+    color: #e82c59;
+    margin: 30px 0 80px 0;
+}
+
+section_margin {
+    margin: 30px 0 80px 0;
+}
+
+.bus {
+    display: flex;
+}
+
+.bus ul {
+    margin: 0 35px 0 0;
+}
+
+
+.bus ul li {
+    position: relative;
+    padding: 0 0 0 30px;
+}
+
+.bus ul li::before {
+    background-image: url('../icon/checkedbox.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 0;
+    top: 5px;
+}
+
+.excahnage_icon {
+    width: 30%;
+    margin: 0 auto 15px;
 }
