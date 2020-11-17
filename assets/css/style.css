@@ -2349,11 +2349,17 @@ header a:hover, .navbar-nav li a.active {
 	margin: 0;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 688a0c63aa01d9d4cd2adff72cd66fa485f1f101
 .team_img {
 	overflow: hidden;
 	position: relative;
+	height: 185px;
 }
 
+<<<<<<< HEAD
 .team_img:hover .social_team ul li a {
 	/* padding: 25px; */
 	font-size: 38px;
@@ -2362,6 +2368,8 @@ header a:hover, .navbar-nav li a.active {
 	width: 50px;
 	line-height: 53px;
 }
+=======
+>>>>>>> 688a0c63aa01d9d4cd2adff72cd66fa485f1f101
 
 .team_img img {
 	width: 100%;
