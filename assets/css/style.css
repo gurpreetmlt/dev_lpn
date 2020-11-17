@@ -2085,10 +2085,15 @@ header a:hover,.navbar-nav li a.active {
 	line-height: normal;
 	margin: 0;
 }
+
+
 .team_img {
 	overflow: hidden;
 	position: relative;
+	height: 185px;
 }
+
+
 .team_img img {
 	width: 100%;
 }
