@@ -56,3 +56,47 @@
     background: #fff;
     text-align: center;
 }
+/* 
+#incentive p {
+    background: #e82d5a;
+    border-radius: 21px;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    min-height: 88px;
+    color: #fff;
+   
+    width: 100%;
+   
+    
+}
+#incentive .left-box p {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    padding-right: 44px;
+    padding-left: 10px;
+}
+#incentive .right-box p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    padding-left: 44px;
+    padding-right: 10px;
+} */
+.left-box P {
+    margin-bottom: 15px;
+    text-align: left;
+    margin-left: 80px;
+    position: relative;
+}
+.left-box p::before {
+    position: absolute;
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    left: -30px;
+    top: 0;
+}
