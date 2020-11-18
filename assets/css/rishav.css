@@ -34,3 +34,25 @@
     font-size: 22px;
     font-weight: 600;
 }
+.the-legacy ul li {
+    display: flex;
+    align-items: baseline;
+    font-weight: 600;
+}
+.the-legacy ul li i {
+    margin-right: 10px;
+}
+.custom-cont .container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.custom-cont .the-legacy img {
+    width: 100%;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+}
+
+.custom-cont figure {
+    background: #fff;
+    text-align: center;
+}
