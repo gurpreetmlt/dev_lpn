@@ -608,6 +608,13 @@ button:focus {
 
 /*END PRELOADER DESIGN*/
 
+.load-more__btn:hover {
+	background: -webkit-linear-gradient(left, rgba(37, 184, 213, 1) 0%, rgba(117, 88, 165, 1) 99%);
+	background: linear-gradient(to right, rgba(37, 184, 213, 1) 0%, rgba(117, 88, 165, 1) 99%);
+	color: #fff;
+	
+}
+
 /* THEME DEMO CSS*/
 
 .color-switch {
@@ -923,9 +930,6 @@ button:focus {
 .btn+.btn:last-child {
 	margin-left: 10px;
 }
-
-
-
 
 .shape {
 	background-repeat: no-repeat;
@@ -2349,18 +2353,13 @@ header a:hover, .navbar-nav li a.active {
 	margin: 0;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 688a0c63aa01d9d4cd2adff72cd66fa485f1f101
-.team_img {
+<<<<<<< HEAD=======>>>>>>>688a0c63aa01d9d4cd2adff72cd66fa485f1f101 .team_img {
 	overflow: hidden;
 	position: relative;
 	height: 185px;
 }
 
-<<<<<<< HEAD
-.team_img:hover .social_team ul li a {
+<<<<<<< HEAD .team_img:hover .social_team ul li a {
 	/* padding: 25px; */
 	font-size: 38px;
 	/* background: black; */
@@ -2368,10 +2367,8 @@ header a:hover, .navbar-nav li a.active {
 	width: 50px;
 	line-height: 53px;
 }
-=======
->>>>>>> 688a0c63aa01d9d4cd2adff72cd66fa485f1f101
 
-.team_img img {
+=======>>>>>>>688a0c63aa01d9d4cd2adff72cd66fa485f1f101 .team_img img {
 	width: 100%;
 }
 
@@ -2445,6 +2442,13 @@ header a:hover, .navbar-nav li a.active {
 	opacity: 0.8;
 }
 
+.team_img:hover .social_team ul li a {
+	height: 50px;
+	width: 50px;
+	line-height: 55px;
+	font-size: 30px;
+}
+
 .team_pop {
 	background-color: #ffffff;
 	border-radius: 4px;
@@ -2452,7 +2456,6 @@ header a:hover, .navbar-nav li a.active {
 	max-width: 800px;
 	padding: 10px;
 	position: relative;
-	text-align: justify;
 }
 
 .social_single_team {
@@ -2698,17 +2701,15 @@ header a:hover, .navbar-nav li a.active {
 	background-color: #12142c;
 }
 
-
-
 .load-more__btn {
-    padding: 10px 25px;
-    background: #e82c59;
-    border-radius: 35px;
-    color: white;
-    position: relative;
-    margin-top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+	padding: 10px 25px;
+	background: #e82c59;
+	border-radius: 35px;
+	color: white;
+	position: relative;
+	margin-top: 20px;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 /*===================================*
