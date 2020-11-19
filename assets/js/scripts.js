@@ -397,7 +397,7 @@ LANDING PAGE JS
 	// 	});
 	// });
 
-
+	
 
 		$('.pro .lpnspeed-value > span').each(function(){
 			$(this).prop('Counter',0).animate({
@@ -407,7 +407,7 @@ LANDING PAGE JS
 				easing: 'swing',
 				step: function (now){
 					$(this).text(Math.ceil(now));
-				}
+				},
 			});
 		});
 	
