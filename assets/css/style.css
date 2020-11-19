@@ -3,6 +3,10 @@
  *===================================*/
 
 @import url("../../../../../stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("gurpreet.css");
+@import url("rishav.css");
+
+
 body {
 	background: #ffffff none repeat scroll 0 0;
 	color: #7a7a7a;
