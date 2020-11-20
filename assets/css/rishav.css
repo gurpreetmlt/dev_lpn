@@ -100,3 +100,17 @@
     left: -30px;
     top: 0;
 }
+.benefit_box img{
+    margin: 0 auto;
+}
+ul.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+.navbar {
+    padding: 0px 60px;
+}
+#about .row {
+    display: flex;
+    justify-content: center;
+}
