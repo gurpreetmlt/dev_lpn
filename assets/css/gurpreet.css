@@ -9,6 +9,11 @@
 }
 
 
+.ion-android-menu {
+    color: #ae8eb0;
+}
+
+
 .why-use-box .box_inner {
     box-shadow: none;
 }
@@ -78,3 +83,17 @@ section_margin {
     text-align: left;
     margin: 0 0 10px 0;
 }
+
+@media (max-width:768px){
+    .why-use-box.animation.animated.fadeInUp
+    {
+        width:100%;
+    }
+
+    .the-legacy {
+        display: block;
+    }
+}
+
+
+
