@@ -235,7 +235,7 @@ ul.navbar-nav {
 .our-team .post {
     display: block;
     font-size: 14px;
-    color:#e62e58;
+    color: #e62e58;
 }
 
 
@@ -248,6 +248,7 @@ ul.navbar-nav {
     margin: 0;
     padding-bottom: 40px;
 }
+
 .roadmap_list li:before {
     content: "";
     background: #E5E5E5;
@@ -257,6 +258,7 @@ ul.navbar-nav {
     left: 0;
     top: 0;
 }
+
 small.circle {
     position: absolute;
     left: -11px;
@@ -268,6 +270,7 @@ small.circle {
     border-radius: 50%;
     z-index: 1;
 }
+
 .roadmap_list li span {
     font-style: normal;
     font-weight: 500;
@@ -279,17 +282,21 @@ small.circle {
     left: 40px;
     top: 0;
 }
+
 .roadmap_list li p {
     font-weight: 300;
     font-size: 15px;
     line-height: 22px;
 }
+
 .About_user {
     padding: 0 40px;
 }
+
 .About_user .content_text_block {
     border-radius: 30px;
 }
+
 .About_user .content_text_block p {
     font-style: normal;
     font-weight: 500;
@@ -299,17 +306,21 @@ small.circle {
     text-align: center;
     padding: 45px 100px;
 }
-.content_text_block, .content_text_block p.white-text {
+
+.content_text_block,
+.content_text_block p.white-text {
     color: #000;
 }
 
 .blue_bg {
     background: #000643;
 }
+
 .Roadmap_block_3 .content_text_block p {
     font-size: 16px;
     line-height: 28px;
 }
+
 .content_text_block p {
     font-style: normal;
     font-size: 16px;
@@ -317,14 +328,17 @@ small.circle {
     color: #151b31;
     margin-bottom: 30px;
 }
+
 .Roadmap_block_3 .card {
     margin: 0 0 15px;
     border: none;
     border-radius: 10px;
 }
+
 .accordion>.card {
     overflow: hidden;
 }
+
 .card {
     position: relative;
     display: -ms-flexbox;
@@ -335,10 +349,11 @@ small.circle {
     word-wrap: break-word;
     background-color: #e82d5a;
     background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
+    border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .25rem;
     color: #fff;
 }
+
 .collapse:not(.show) {
     display: none;
 }
@@ -357,7 +372,8 @@ small.circle {
     text-align: center;
     color: #E73059;
 }
-.roadmap_page_products p{
+
+.roadmap_page_products p {
     color: #fff;
 }
 
@@ -367,9 +383,11 @@ small.circle {
     padding: 0 15px;
     margin: 0 auto 30px;
 }
+
 .lpnt_journy {
     position: relative;
 }
+
 .journey-year {
     width: 164px;
     height: 164px;
@@ -379,6 +397,7 @@ small.circle {
     padding: 25px 23px;
     margin: 0 auto;
 }
+
 .journey-year span {
     width: 114px;
     height: 114px;
@@ -394,32 +413,40 @@ small.circle {
     position: relative;
     z-index: 3;
 }
+
 .journey_content h5 {
     font-weight: 600;
     font-size: 14px;
     line-height: 172.5%;
     color: #000000;
 }
-.white-text{
-    color:#fff;
+
+.white-text {
+    color: #fff;
 }
+
 .white-text p {
     color: #fff;
 }
+
 .white-text h5 {
     color: #fff;
 }
+
 ul.journey_content {
     display: flex;
     flex-wrap: wrap;
 }
+
 .journey_content h5 {
     font-weight: 600;
     font-size: 14px;
     line-height: 172.5%;
     color: #000000;
 }
-.j_ques, .j_ques_right {
+
+.j_ques,
+.j_ques_right {
     position: relative;
     background: #FFFFFF;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -427,6 +454,7 @@ ul.journey_content {
     padding: 18px;
     margin-bottom: 70px;
 }
+
 .journey-year:before {
     content: "";
     background: #E6E6E6;
@@ -455,7 +483,9 @@ ul.journey_content li span {
     position: absolute;
     left: 0;
 }
-.j_ques:after, .j_ques:before {
+
+.j_ques:after,
+.j_ques:before {
     left: 100%;
     top: 50%;
     border: solid transparent;
@@ -463,63 +493,74 @@ ul.journey_content li span {
     height: 0;
     width: 0;
     position: absolute;
-    pointer-events: none;}
+    pointer-events: none;
+}
 
 
 
- 
-    .j_ques, .j_ques_right {
-        position: relative;
-        background: #FFFFFF;
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-        border-radius: 12px;
-        padding: 18px;
-        margin-bottom: 70px;
+
+.j_ques,
+.j_ques_right {
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 70px;
+}
+
+
+
+.journey-year.purple_bg span {
+    background: #263673;
+}
+
+.journey-year.green_bg span {
+    background: #00928c;
+}
+
+.journey-year {
+    width: 164px;
+    height: 164px;
+    border: 2px solid #E73059;
+    box-sizing: border-box;
+    border-radius: 50%;
+    padding: 25px 23px;
+    margin: 0 auto;
+}
+
+.j_ques,
+.j_ques_right {
+    width: 95%;
+}
+
+.j_ques,
+.j_ques_right {
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 70px;
+}
+
+
+.team-in .content_text_block {
+    margin: 0 0 30px 0;
+}
+
+
+
+
+@media only screen and (max-width: 990px) {
+    .our-team {
+        margin-bottom: 30px;
+        color: #e62e58;
     }
 
-
-
-    .journey-year.purple_bg span {
-        background: #263673;
+    #faq {
+        padding: 0 20px;
     }
-    .journey-year.green_bg span {
-        background: #00928c;
-    }
-
-    .journey-year {
-        width: 164px;
-        height: 164px;
-        border: 2px solid #E73059;
-        box-sizing: border-box;
-        border-radius: 50%;
-        padding: 25px 23px;
-        margin: 0 auto;
-    }
-    .j_ques, .j_ques_right {
-        width: 95%;
-    }
-    .j_ques, .j_ques_right {
-        position: relative;
-        background: #FFFFFF;
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-        border-radius: 12px;
-        padding: 18px;
-        margin-bottom: 70px;
-    }
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 990px){
-    .our-team{ margin-bottom: 30px; }
-    color: #e62e58;
 }
 
 @media only screen and (max-width: 990px) {
@@ -529,6 +570,24 @@ ul.journey_content li span {
 
     .navbar {
         padding: 0;
+    }
+
+    .team-in:nth-child(3) .row {
+        display: flex;
+    }
+    
+    .team-in:nth-child(3) .row .col-sm-8 {
+        flex-direction: column;
+        order: 2;
+    }
+
+    .team-in:nth-child(5) .row {
+        display: flex;
+    }
+    
+    .team-in:nth-child(5) .row .col-sm-8 {
+        flex-direction: column;
+        order: 2;
     }
 
 }
