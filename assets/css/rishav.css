@@ -294,12 +294,8 @@ small.circle {
     padding: 45px 100px;
 }
 
-<<<<<<< HEAD
-.content_text_block, .content_text_block p.white-text {
-=======
 .content_text_block,
 .content_text_block p.white-text {
->>>>>>> gurpreet
     color: #000;
 }
 
@@ -436,12 +432,8 @@ ul.journey_content {
     color: #000000;
 }
 
-<<<<<<< HEAD
-.j_ques, .j_ques_right {
-=======
 .j_ques,
 .j_ques_right {
->>>>>>> gurpreet
     position: relative;
     background: #FFFFFF;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -478,12 +470,9 @@ ul.journey_content li span {
     left: 0;
 }
 
-<<<<<<< HEAD
-.j_ques:after, .j_ques:before {
-=======
+
 .j_ques:after,
 .j_ques:before {
->>>>>>> gurpreet
     left: 100%;
     top: 50%;
     border: solid transparent;
@@ -493,8 +482,6 @@ ul.journey_content li span {
     position: absolute;
     pointer-events: none;
 }
-<<<<<<< HEAD
-=======
 
 
 
@@ -508,7 +495,6 @@ ul.journey_content li span {
     padding: 18px;
     margin-bottom: 70px;
 }
->>>>>>> gurpreet
 
 .j_ques, .j_ques_right {
     position: relative;
@@ -519,7 +505,6 @@ ul.journey_content li span {
     margin-bottom: 70px;
 }
 
-<<<<<<< HEAD
 .journey-year.purple_bg span {
     background: #263673;
 }
@@ -557,7 +542,6 @@ ul.journey_content li span {
     align-items: center;
     flex-direction: column;
     text-align: center;
-=======
 
 .journey-year.purple_bg span {
     background: #263673;
@@ -590,7 +574,6 @@ ul.journey_content li span {
     border-radius: 12px;
     padding: 18px;
     margin-bottom: 70px;
->>>>>>> gurpreet
 }
 
 #contact form {
@@ -618,13 +601,10 @@ ul.journey_content li span {
         color: #e62e58;
     }
 
-<<<<<<< HEAD
-=======
     #faq {
         padding: 0 20px;
     }
 }
->>>>>>> gurpreet
 
 @media only screen and (max-width: 990px) {
     .our-team {
@@ -634,8 +614,6 @@ ul.journey_content li span {
     .navbar {
         padding: 0;
     }
-<<<<<<< HEAD
-=======
 
     .team-in:nth-child(3) .row {
         display: flex;
@@ -655,5 +633,4 @@ ul.journey_content li span {
         order: 2;
     }
 
->>>>>>> gurpreet
 }
