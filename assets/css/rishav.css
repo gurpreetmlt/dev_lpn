@@ -347,7 +347,7 @@ small.circle {
 
 .roadmap_page_products {
     background: #000644;
-    padding: 40px;
+    padding: 40px 80px;
     margin: 70px 0;
     color: #fff;
 }
@@ -607,7 +607,9 @@ ul.journey_content li span {
 }
 
 
-
+.howit  {
+    margin-bottom: 10px;
+}
 
 
 
