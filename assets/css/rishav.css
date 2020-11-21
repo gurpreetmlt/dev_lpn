@@ -470,13 +470,9 @@ ul.journey_content li span {
     left: 0;
 }
 
-<<<<<<< HEAD
-.j_ques:after, .j_ques:before {
-=======
 
 .j_ques:after,
 .j_ques:before {
->>>>>>> 6a085342d882d864f9436ae6da1d27805bc5a252
     left: 100%;
     top: 50%;
     border: solid transparent;
@@ -486,8 +482,6 @@ ul.journey_content li span {
     position: absolute;
     pointer-events: none;
 }
-<<<<<<< HEAD
-=======
 
 
 
@@ -501,7 +495,6 @@ ul.journey_content li span {
     padding: 18px;
     margin-bottom: 70px;
 }
->>>>>>> 6a085342d882d864f9436ae6da1d27805bc5a252
 
 .j_ques, .j_ques_right {
     position: relative;
@@ -549,12 +542,10 @@ ul.journey_content li span {
     align-items: center;
     flex-direction: column;
     text-align: center;
-<<<<<<< HEAD
-=======
+}
 
 .journey-year.purple_bg span {
-    background: #263673;
-}
+    background: #263673; }
 
 .journey-year.green_bg span {
     background: #00928c;
@@ -583,7 +574,6 @@ ul.journey_content li span {
     border-radius: 12px;
     padding: 18px;
     margin-bottom: 70px;
->>>>>>> 6a085342d882d864f9436ae6da1d27805bc5a252
 }
 
 #contact form {
