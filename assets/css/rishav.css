@@ -478,12 +478,7 @@ ul.journey_content li span {
     left: 0;
 }
 
-<<<<<<< HEAD
 .j_ques:after, .j_ques:before {
-=======
-.j_ques:after,
-.j_ques:before {
->>>>>>> gurpreet
     left: 100%;
     top: 50%;
     border: solid transparent;
@@ -493,22 +488,6 @@ ul.journey_content li span {
     position: absolute;
     pointer-events: none;
 }
-<<<<<<< HEAD
-=======
-
-
-
-
-.j_ques,
-.j_ques_right {
-    position: relative;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
-    padding: 18px;
-    margin-bottom: 70px;
-}
->>>>>>> gurpreet
 
 .j_ques, .j_ques_right {
     position: relative;
@@ -519,7 +498,6 @@ ul.journey_content li span {
     margin-bottom: 70px;
 }
 
-<<<<<<< HEAD
 .journey-year.purple_bg span {
     background: #263673;
 }
@@ -557,40 +535,6 @@ ul.journey_content li span {
     align-items: center;
     flex-direction: column;
     text-align: center;
-=======
-
-.journey-year.purple_bg span {
-    background: #263673;
-}
-
-.journey-year.green_bg span {
-    background: #00928c;
-}
-
-.journey-year {
-    width: 164px;
-    height: 164px;
-    border: 2px solid #E73059;
-    box-sizing: border-box;
-    border-radius: 50%;
-    padding: 25px 23px;
-    margin: 0 auto;
-}
-
-.j_ques,
-.j_ques_right {
-    width: 95%;
-}
-
-.j_ques,
-.j_ques_right {
-    position: relative;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
-    padding: 18px;
-    margin-bottom: 70px;
->>>>>>> gurpreet
 }
 
 #contact form {
@@ -612,19 +556,32 @@ ul.journey_content li span {
 }
 
 
+
+
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #ef715f;
+    border-color: #ef715f
+}
+.accordion-toggle:hover {
+    text-decoration: none
+}
+
+
+
+
+
+
 @media only screen and (max-width: 990px) {
     .our-team {
         margin-bottom: 30px;
         color: #e62e58;
     }
 
-<<<<<<< HEAD
-=======
     #faq {
         padding: 0 20px;
     }
 }
->>>>>>> gurpreet
 
 @media only screen and (max-width: 990px) {
     .our-team {
@@ -634,8 +591,6 @@ ul.journey_content li span {
     .navbar {
         padding: 0;
     }
-<<<<<<< HEAD
-=======
 
     .team-in:nth-child(3) .row {
         display: flex;
@@ -655,5 +610,4 @@ ul.journey_content li span {
         order: 2;
     }
 
->>>>>>> gurpreet
 }
