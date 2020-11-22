@@ -1503,11 +1503,11 @@ header a:hover, .navbar-nav li a.active {
 	margin-top: 10px;
 }
 
-.benefit_box img {
-    /* min-height: 260px; */
+/* .benefit_box img {
+    min-height: 260px;
     height: 270px;
     width: 270px;
-}
+} */
 
 /*===================================*
 05. END ABOUT SECTION
@@ -1896,6 +1896,11 @@ header a:hover, .navbar-nav li a.active {
 	bottom: 0;
 	right: 0;
 	z-index: 1;
+}
+
+.lpnspeed.green .lpnspeed-value {
+    line-height: 24px;
+    padding: 12px 0 0 0;
 }
 
 .pro .lpnspeed .inner-circle:after {
@@ -2890,9 +2895,6 @@ header a:hover, .navbar-nav li a.active {
 	color: #e82c59;
 }
 
-.v_light .contact_detail {
-	border-color: #e82c59;
-}
 
 .v_light .contact_detail p {
 	color: #7a7a7a;
