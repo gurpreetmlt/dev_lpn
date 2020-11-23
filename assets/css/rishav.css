@@ -177,7 +177,54 @@ ul.navbar-nav {
     left: -50%;
     transition: all 0.4s ease-in-out 0s;
 }
-
+.our-mng .social {
+    list-style: none;
+    padding: 30px 15px;
+    margin: 0;
+    background: #e62e58;
+    border-bottom-right-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: -50%;
+    transition: all 0.4s ease-in-out 0s;
+}
+.our-right .social{
+    list-style: none;
+    padding: 30px 15px;
+    margin: 0;
+    background: #e62e58;
+    border-bottom-left-radius: 50px;
+    position: absolute;
+    top: 0;
+    right: -50%;
+    transition: all 0.4s ease-in-out 0s;
+}
+.our-mng:hover .social {
+    left: 14px;
+}
+.our-right:hover .social {
+    right: 14px;
+}
+.our-mng .social li {
+    display: block;
+}
+.our-right .social li {
+    display: block;
+}
+.our-mng {
+    overflow: hidden;
+    position: relative;
+}
+.our-right {
+    overflow: hidden;
+    position: relative;
+}
+.our-mng .social li a {
+    color: white;
+}
+.our-right .social li a {
+    color: white;
+}
 .our-team:hover .social {
     left: 0;
 }
@@ -627,6 +674,9 @@ ul.journey_content li span {
 #terms .bus {
     display: unset;
 }
+
+
+
 
 @media only screen and (max-width: 990px) {
     .our-team {
