@@ -675,7 +675,9 @@ ul.journey_content li span {
     display: unset;
 }
 
-
+.the-legacy ul li .fa{
+    color: #e82c59;
+}
 
 
 @media only screen and (max-width: 990px) {
