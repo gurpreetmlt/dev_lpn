@@ -72,9 +72,9 @@ LANDING PAGE JS
 	});
 
 	//Main navigation Active Class Add Remove
-	$('.navbar-toggler').on('click', function () {
-		$("header").toggleClass("active");
-	});
+	// $('.navbar-toggler').on('click', function () {
+	// 	$("header").toggleClass("active");
+	// });
 
 	/*===================================*
 	04. BACKGROUND ANIMATION JS

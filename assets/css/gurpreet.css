@@ -84,16 +84,34 @@ section_margin {
     margin: 0 0 10px 0;
 }
 
-@media (max-width:768px){
-    .why-use-box.animation.animated.fadeInUp
-    {
-        width:100%;
+#video .modal-dialog {
+    max-width: 900px;
+}
+
+#video .modal-content {
+    background: none;
+    border: none;
+}
+
+#video .modal-content .modal-header {
+    border: none;
+}
+
+#video .modal-content .modal-header .close {
+    opacity: 1;
+}
+
+#video .modal-content .modal-header .close span {
+    color: #fff;
+    opacity: 1 !important;
+}
+
+@media (max-width:768px) {
+    .why-use-box.animation.animated.fadeInUp {
+        width: 100%;
     }
 
     .the-legacy {
         display: block;
     }
 }
-
-
-
